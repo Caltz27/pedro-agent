@@ -1,0 +1,6 @@
+[project]
+name = "pedro-agent"
+version = "0.1.0"
+description = "A small research agent with a local web chat and one approved shell tool"
+requires-python = ">=3.10"
+dependencies = []
