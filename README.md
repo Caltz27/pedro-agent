@@ -4,7 +4,7 @@ Week 2 agent harness for AI in Research.
 
 ## Status
 
-Published at https://github.com/Caltz27/pedro-agent. OpenRouter plain-chat and tool-call checks passed with `cohere/north-mini-code:free`. The student completed the learning checkpoint and approved the local web interface. Live project-file listing, denial handling, and failed-command recovery passed, with cached tokens reported. Local approval/history, failed-command, and output-truncation tests passed. The student chose to omit the broader home-directory scan. The class submission pull request awaits approval; the install skill is prepared in the separate Week 2 submission checkout.
+Published at https://github.com/Caltz27/pedro-agent and submitted through https://github.com/huangzesen/ai-in-research-homework/pull/12. The public-clone API checks and local tests passed. The student completed the learning checkpoint and approved the local web interface. Live project-file listing, denial handling, and failed-command recovery passed, with cached tokens reported. The student chose to omit the broader home-directory scan.
 
 Keep the API key in `.env`; Git ignores this file.
 
