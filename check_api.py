@@ -61,7 +61,7 @@ def main():
     show_usage(result)
     result = request_completion(settings,
         messages=[{'role': 'user', 'content': 'Use bash to print hello. Do not answer with text.'}],
-        tools=[TOOL], tool_choice='required')
+        tools=[TOOL], tool_choice={'type': 'function', 'function': {'name': 'bash'}})
     calls = result['choices'][0]['message'].get('tool_calls') or []
     if not calls:
         raise ValueError('Tool check returned no tool call; choose a different model.')
